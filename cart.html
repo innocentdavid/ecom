@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script type="text/javascript">     window.CSRF_TOKEN = "{{ csrf_token }}"; </script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <script src="js/index.js"></script>
+  <title>Ecom</title>
+  <style>
+@media (max-width: 766px) {
+    .sidebar ul {
+      display: flex;
+      width: 100%;
+      overflow-x: auto;
+    }
+    .sidebar li {
+      margin: .5rem;
+      list-style-type: none;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="sm-cart">
+    &nbsp;&nbsp;
+    <i class="fa fa-shopping-cart"></i>
+    <span class="badge">5</span>
+  </div>
+  <div id="navigation">
+    <div class="logo">
+      <h3>Logo</h3>
+    </div>
+    <div class="nb">
+      <ul class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
+      </ul>
+    </div>
+    <h3 class="fa fa-bars" id="menu-bar"></h3>
+  </div>
+  <div class="pt-4">
+
+  </div>
+  <div id="main" style="margin: 0; padding:0; padding-top: 30px;">
+    <section style="margin: 0; padding:0;">
+      <div class="">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="sidebar col-md-3" style="overflow-x: hidden;">
+              <div>
+                <form style="font-size: 1rem;" class="d-flex" id="" action="" method="get" accept-charset="utf-8">
+                  <input type="text" name="keyword" id="keyword" placeholder="search" class="form-control" required />
+                  <input type="button" name="" id="" value="Search" />
+                </form>
+              </div>
+              <div class="side-catg">
+                <br />
+                <h2>Categories</h2>
+                <ul>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                  <li><a href="">Categories</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <h4>
+                <a href="">Home</a> /
+                <span>
+                  Cart
+                </span>
+              </h4>
+              <div class="">
+                <i style="text-transform: capitalize;">3nity</i>
+              </div>
+              <hr />
+              <div class="">
+                <!-- main -->
+                <div class="cart" style="border:1px solid;">
+                  <div class="cart-item">
+                    <img src="images/shirt.jpg" width="100" />
+                    <span>title</span>
+                  </div>
+                  <div class="cart-qantity">
+                    <div class="d-block">
+                      <i class="fa fa-carat-up"></i>
+                      <i class="fa fa-carat-down"></i>
+                    </div>
+                    <span class="badge">3</span>
+                  </div>
+                  <div class="cart-price">
+                    P
+                  </div>
+                </div>
+                <!-- main -->
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <br /><br />
+  <div id="footer">
+    <div class="newsletter">
+      <p>
+        subscribe to get our latest and quality products first!
+      </p>
+      <form id="" action="" method="get" accept-charset="utf-8">
+        <input type="text" name="email" id="" placeholder="Email: yourname@example.com" class="form-control" />
+      </form>
+    </div>
+    <br />
+    <div class="footer-grid">
+      <div class="ft-grid">
+        <h5>Quick link</h5>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+      </div>
+      <div class="ft-grid">
+        <span>
+          <i class="fas fa-facebook-square"></i>
+          <i class="fas fa-facebook-square"></i>
+          <i class="fas fa-facebook-square"></i>
+          <i class="fas fa-facebook-square"></i>
+        </span>
+        <div class="container-fluid">
+          <h5>Hot Sale</h5>
+          <div class="row">
+            <div class="col-4">
+              <img class="" src="images/shirt.jpg" alt="img" width="100%" />
+            </div>
+            <div class="col-8">
+              <h6>Name</h6>
+              <small>$20.00</small>
+              <p>
+                Ends in <span>31hrs</span>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <img class="" src="images/watch.jpg" alt="img" width="100%" />
+            </div>
+            <div class="col-8">
+              <h6>Name</h6>
+              <small>$20.00</small>
+              <p>
+                Ends in <span>31hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      <div class="">
+        eCom.inc.co
+      </div>
+      <div>
+        &copy; 2020.
+      </div>
+    </center>
+  </div>
+</body>
+</html>

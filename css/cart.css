@@ -1,0 +1,9 @@
+.cart {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 20px;
+  grid-auto-rows: 4rem;
+}
+.cart-qantity {
+  display: inline-block;
+}

@@ -4,15 +4,40 @@
   box-sizing: border-box;
 }
 
+@media (min-width:767px) {
+  * {
+    font-size: 1.1rem;
+  }
+}
+
 .sm-cart {
   position: fixed;
   top: 30%;
   right: 0;
-  width: 20vw;
+  width: 15vw;
   border-radius: 10px 0 0 10px;
   background: rgba(0,0,0,0.5);
   color: white;
   z-index: 9999999999999;
+  animation-name: sm-cart;
+  animation-duration: 1s;
+}
+@keyframes sm-cart {
+  0% {
+    opacity: 0;
+    right: -10%;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+@media (min-width: 767px) {
+  .sm-cart {
+    width: 12vw;
+    font-size: 2rem;
+  }
 }
 /* nav */
 
@@ -83,7 +108,77 @@
 }
 .pt-4 {
   margin-top: 2.5rem;
+}
 
+.discount {
+  animation-name: discount;
+  animation-duration: 2s;
+}
+@keyframes discount {
+  0% {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+
+.claim-now {
+  animation-name: claim-now;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes claim-now {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.explore {
+  animation-name: explore;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes explore {
+  0% {
+    margin-left: -200%;
+    opacity: 0;
+  }
+  50% {
+    margin-left: -100%;
+    opacity: .5;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.order-now {
+  animation-name: order-now;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes order-now {
+  0% {
+    margin-right: -200%;
+    opacity: 0;
+  }
+  50% {
+    margin-right: -100%;
+    opacity: .5;
+  }
+  100% {
+    margin-right: 0;
+    opacity: 1;
+  }
 }
 
 /* header */
@@ -192,6 +287,18 @@ section:nth-child(even) {
 /* for him/her */
 /* main page */
 
+/* sidebar */
+
+@media (min-width: 767px) {
+  .sidebar li {
+    list-style-type: none;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+/* sidebar */
+
 /* footer */
 
 #footer {
@@ -203,8 +310,10 @@ section:nth-child(even) {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
-  grid-auto-rows: 20vh;
 }
 .ft-grid ul {
   padding-left: 15%;
+}
+@media (min-width: 767px) {
+  #footer {}
 }

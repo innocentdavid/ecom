@@ -13,8 +13,12 @@
   <title>Ecom</title>
   <style>
 @media (max-width: 766px) {
+    .sidebar ul {
+      display: flex;
+      width: 100%;
+      overflow-x: auto;
+    }
     .sidebar li {
-      display: inline-block;
       margin: .5rem;
       list-style-type: none;
     }
@@ -44,12 +48,12 @@
   <div class="pt-4">
 
   </div>
-  <div id="main">
-    <section>
+  <div id="main" style="margin: 0; padding:0; padding-top: 30px;">
+    <section style="margin: 0; padding:0;">
       <div class="">
         <div class="container-fluid">
           <div class="row">
-            <div class="sidebar col-md-4" style="overflow-x: hidden;">
+            <div class="sidebar col-md-3" style="overflow-x: hidden;">
               <div>
                 <form style="font-size: 1rem;" class="d-flex" id="" action="" method="get" accept-charset="utf-8">
                   <input type="text" name="keyword" id="keyword" placeholder="search" class="form-control" required />
@@ -73,7 +77,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
               <h4>
                 <a href="">Home</a> /
                 <span>
@@ -312,12 +316,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="ft-grid">
-
-      </div>
-      <div class="ft-grid">
-
       </div>
     </div>
     <center>
