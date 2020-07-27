@@ -1,526 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <script type="text/javascript">     window.CSRF_TOKEN = "{{ csrf_token }}"; </script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/index.css">
-  <script src="js/index.js"></script>
-  <title>Ecom</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script type="text/javascript">     window.CSRF_TOKEN = "{{ csrf_token }}"; </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <title>Ecom</title>
 </head>
+
 <body>
-  <div class="sm-cart">
-    &nbsp;&nbsp;
-    <a href="" style="color:white;">
-      <i class="fa fa-shopping-cart"></i>
-      <span class="badge">5</span>
-    </a>
-  </div>
-  <div id="navigation">
-    <div class="logo">
-      <h3>Logo</h3>
+    <div class="sm-cart">
+        &nbsp;&nbsp;
+        <a href="" style="color:white;">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="badge">2</span>
+        </a>
     </div>
-    <div class="nb">
-      <ul class="navbar">
-        <li><a href="">Home</a></li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Home</a></li>
-      </ul>
+    <div id="navigation">
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        <div class="nb">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+        <h3 class="fa fa-bars" id="menu-bar"></h3>
     </div>
-    <h3 class="fa fa-bars" id="menu-bar"></h3>
-  </div>
-  <div id="header">
-    <div style="height:15%;"></div>
-    <div class="container-fluid" style="height:40%">
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6">
-          <div class="discount">
-            <h1>15%</h1>
-            <h1>Discount</h1>
-          </div>
-          <a href="" class="btn-sm btn-success text-center" style="z-index: -1;">
-            <span class="claim-now">Claim now</span>
-          </a>
+    <div id="header">
+        <div style="height:15%;"></div>
+        <div class="container-fluid" style="height:40%">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="discount">
+                        <h1>15%</h1>
+                        <h1>Discount</h1>
+                    </div>
+                    <a href="" class="btn-sm btn-success text-center" style="z-index: -1;">
+                        <span class="claim-now">Claim now</span>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="d-flex justify-content-around align-items-center" style="margin-top: 10%">
+            <div class=""></div>
+            <div class="btn btn-success">
+                <span class="explore">Explore</span>
+            </div>
+            <a href="tel:+2348112659304" class="btn btn-primary">
+                <span class="order-now">Order now <i class="fas fa-phone"></i></span>
+            </a>
+            <div class=""></div>
+        </div>
     </div>
-    <div class="d-flex justify-content-around align-items-center" style="margin-top: 10%">
-      <div class=""></div>
-      <div class="btn btn-success">
-        <span class="explore">Explore</span>
-      </div>
-      <a href="tel:+2348112659304" class="btn btn-primary">
-        <span class="order-now">Order now <i class="fas fa-phone"></i></span>
-      </a>
-      <div class=""></div>
+    <div id="main">
+        <section class="categories">
+            <h2>Explore Categories</h2>
+            <hr />
+            <br />
+            <div class="catg-item catg-item-1">
+                <div class="">
+                    Women Fashion
+                </div>
+                <div class="">
+                    Shirt
+                </div>
+                <div class="">
+                    Bags
+                </div>
+            </div>
+            <br />
+            <div class="catg-item catg-item-2">
+                <div class="">
+                    Shirt
+                </div>
+                <div class="">
+                    Shoes
+                </div>
+                <div class="">
+                    Men Fashion
+                </div>
+            </div>
+        </section>
+        <section class="f-products">
+            <br />
+            <center>
+                <h2>Featured Products</h2>
+            </center>
+            <hr />
+            <div class="f-items">
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <img class="f-item-img" src="images/shirt.jpg" alt="img" />
+                    <div class="f-item-caption">
+                        <div class="item-name">
+                            <center>Item name</center>
+                        </div>
+                        <center><small>$50.00</small></center>
+                        <center>
+                            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </span>
+                            <i class="star-count">5</i>
+                        </center>
+                        <div class="cart-btn">
+                            <i class="fa fa-heart btn text-white"></i>
+                            <i class="fa fa-eye btn text-white" title="View"></i>
+                            <i class="fa fa-shopping-cart btn text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <center>
+                <div class="btn btn-primary">
+                    More <i class="fa fa-caret-down"></i>
+                </div>
+            </center>
+        </section>
+        <br />
+        <br />
+        <section>
+            <div class="f-her">
+                <center>
+                    <h3>For Her</h3>
+                </center>
+                <hr />
+                <div class="f-her-catg">
+                    <ul>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                    </ul>
+                </div>
+                <hr />
+                <div class="f-h-items">
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/shirt.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <center>
+                <div class="btn btn-primary">
+                    More <i class="fa fa-caret-down"></i>
+                </div>
+            </center>
+        </section>
+        <br />
+        <br />
+        <section>
+            <div class="f-her">
+                <center>
+                    <h3>For Him</h3>
+                </center>
+                <hr />
+                <div class="f-her-catg">
+                    <ul>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                        <li><a href="">catg1</a></li>
+                    </ul>
+                </div>
+                <hr />
+                <div class="f-h-items">
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="" style="border:1px solid">
+                        <a href="">
+                            <img src="images/watch.jpg" alt="" width="100%" />
+                            <center>
+                                <h6>$30.00</h6>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <center>
+                <div class="btn btn-primary">
+                    More <i class="fa fa-caret-down"></i>
+                </div>
+            </center>
+        </section>
     </div>
-  </div>
-  <div id="main">
-    <section class="categories">
-      <h2>Explore Categories</h2>
-      <hr />
-      <br />
-      <div class="catg-item catg-item-1">
-        <div class="">
-          Women Fashion
+    <br /><br />
+    <div id="footer">
+        <div class="newsletter">
+            <p>
+                subscribe to get our latest and quality products first!
+            </p>
+            <form id="" action="" method="get" accept-charset="utf-8">
+                <input type="text" name="email" id="" placeholder="Email: yourname@example.com" class="form-control" />
+            </form>
         </div>
-        <div class="">
-          Shirt
-        </div>
-        <div class="">
-          Bags
-        </div>
-      </div>
-      <br />
-      <div class="catg-item catg-item-2">
-        <div class="">
-          Shirt
-        </div>
-        <div class="">
-          Shoes
-        </div>
-        <div class="">
-          Men Fashion
-        </div>
-      </div>
-    </section>
-    <section class="f-products">
-      <br />
-      <center><h2>Featured Products</h2></center>
-      <hr />
-      <div class="f-items">
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
+        <br />
+        <div class="footer-grid">
+            <div class="ft-grid">
+                <h5>Quick link</h5>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                </ul>
             </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
-            </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
-            </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
-            </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
-            </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="f-item">
-          <img class="f-item-img" src="images/shirt.jpg" alt="img" />
-          <div class="f-item-caption">
-            <div class="item-name">
-              <center>Item name</center>
-            </div>
-            <center><small>$50.00</small></center>
-            <center>
-              <span>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <i class="star-count">5</i>
-            </center>
-            <div class="cart-btn">
-              <i class="fa fa-heart btn text-white"></i>
-              <i class="fa fa-eye btn text-white" title="View"></i>
-              <i class="fa fa-shopping-cart btn text-white"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <center>
-        <div class="btn btn-primary">
-          More <i class="fa fa-caret-down"></i>
-        </div>
-      </center>
-    </section>
-    <br />
-    <br />
-    <section>
-      <div class="f-her">
-        <center><h3>For Her</h3></center>
-        <hr />
-        <div class="f-her-catg">
-          <ul>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-          </ul>
-        </div>
-        <hr />
-        <div class="f-h-items">
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/shirt.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br />
-      <center>
-        <div class="btn btn-primary">
-          More <i class="fa fa-caret-down"></i>
-        </div>
-      </center>
-    </section>
-    <br />
-    <br />
-    <section>
-      <div class="f-her">
-        <center><h3>For Him</h3></center>
-        <hr />
-        <div class="f-her-catg">
-          <ul>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-            <li><a href="">catg1</a></li>
-          </ul>
-        </div>
-        <hr />
-        <div class="f-h-items">
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-          <div class="" style="border:1px solid">
-            <a href="">
-              <img src="images/watch.jpg" alt="" width="100%" />
-              <center>
-                <h6>$30.00</h6>
-                <div class="d-flex justify-content-around">
-                  <i class="fa fa-shopping-cart"></i>
-                  <i class="fa fa-heart"></i>
-                </div>
-              </center>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br />
-      <center>
-        <div class="btn btn-primary">
-          More <i class="fa fa-caret-down"></i>
-        </div>
-      </center>
-    </section>
-  </div>
-  <br /><br />
-  <div id="footer">
-    <div class="newsletter">
-      <p>
-        subscribe to get our latest and quality products first!
-      </p>
-      <form id="" action="" method="get" accept-charset="utf-8">
-        <input type="text" name="email" id="" placeholder="Email: yourname@example.com" class="form-control" />
-      </form>
-    </div>
-    <br />
-    <div class="footer-grid">
-      <div class="ft-grid">
-        <h5>Quick link</h5>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-        </ul>
-      </div>
-      <div class="ft-grid">
-        <span>
+            <div class="ft-grid">
+                <span>
           <i class="fas fa-facebook-square"></i>
           <i class="fas fa-facebook-square"></i>
           <i class="fas fa-facebook-square"></i>
           <i class="fas fa-facebook-square"></i>
         </span>
-        <div class="container-fluid">
-          <h5>Hot Sale</h5>
-          <div class="row">
-            <div class="col-4">
-              <img class="" src="images/shirt.jpg" alt="img" width="100%" />
+                <div class="container-fluid">
+                    <h5>Hot Sale</h5>
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="" src="images/shirt.jpg" alt="img" width="100%" />
+                        </div>
+                        <div class="col-8">
+                            <h6>Name</h6>
+                            <small>$20.00</small>
+                            <p>
+                                Ends in <span>31hrs</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="" src="images/watch.jpg" alt="img" width="100%" />
+                        </div>
+                        <div class="col-8">
+                            <h6>Name</h6>
+                            <small>$20.00</small>
+                            <p>
+                                Ends in <span>31hrs</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-8">
-              <h6>Name</h6>
-              <small>$20.00</small>
-              <p>
-                Ends in <span>31hrs</span>
-              </p>
+            <div class="ft-grid">
+
             </div>
-          </div>
-          <div class="row">
-            <div class="col-4">
-              <img class="" src="images/watch.jpg" alt="img" width="100%" />
+            <div class="ft-grid">
+
             </div>
-            <div class="col-8">
-              <h6>Name</h6>
-              <small>$20.00</small>
-              <p>
-                Ends in <span>31hrs</span>
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="ft-grid">
-
-      </div>
-      <div class="ft-grid">
-
-      </div>
+        <center>
+            <div class="">
+                eCom.inc.co
+            </div>
+            <div>
+                &copy; 2020.
+            </div>
+        </center>
     </div>
-    <center>
-      <div class="">
-        eCom.inc.co
-      </div>
-      <div>
-        &copy; 2020.
-      </div>
-    </center>
-  </div>
 </body>
+
 </html>
